@@ -1,0 +1,165 @@
+/* Grundstruktur */
+*{
+    background-color: black;
+    font-family:  'Roboto', sans-serif;
+}
+/* Bottom Fun */
+#topbtn{
+    position: fixed;
+    bottom: 0;
+}
+
+#topbtn a{
+    color: black;
+    text-decoration: none;
+}
+
+#topbtn p{
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: darkgrey;
+}
+
+#hah{
+    position: fixed;
+    bottom: 0;
+}
+
+#hah a{
+    color: black;
+}
+
+#hah p{
+    padding: 10px;
+}
+
+#nakano{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+/* Bottom Fun End*/
+
+#header{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#banner-text{
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 3px 3px 3px black;
+    font-size: 3rem;
+    width: auto;
+    color: white;
+    margin-top: -15%;
+    display: flex;
+    justify-content: center;
+}
+/* Navigation */
+.navig{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #242526;
+    border: 2px solid #242526;
+    margin-top: 9em;
+}
+
+.navig a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #242526;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+    background-color: black;
+}
+/* Navigation end */
+.hl{
+    color: white;
+    font-size: 1.7rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.toptxt{
+    margin: auto;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+/* Grundstruktur zuende */
+
+/* Listen Elemente */
+ul{
+    color: white;
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    display: inline-block;
+    margin:0 auto;
+    padding: 2em;
+}
+
+.LTitle{
+    font-size: 1.6rem;
+    text-shadow: 2px 2px 3px darkorchid;
+}
+/* Listen elemente ende*/
+
+/* Manga n Anime Section*/
+span{
+    color: white;
+    margin-left: 10em;
+}
+
+.picshow{
+    float: right;
+    margin-top: inherit;
+    margin-left: 5em;
+    width: 300px;
+    height: auto;
+}
+
+.describ{
+    margin: 15%;
+    margin-top: 5%;
+    width: 50%;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+section{
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Games and Music Section */
+.picshowG{
+    margin:0 auto;
+    width: 900px;
+    height: auto;
+}
+
+.divG{
+    width: 900px;
+    margin: 0 auto;
+}
